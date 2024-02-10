@@ -2,7 +2,7 @@ const express=require("express")
 const {Server}=require("socket.io")
 const http=require("http")
 const cors=require("cors")
-const baseUrl="https://chatclub-group-chat.netlify.app"
+const baseUrl="https://chatclub-group-chat-app.onrender.com"
 
 const app=express()
 app.use(cors())
